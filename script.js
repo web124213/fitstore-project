@@ -1,5 +1,4 @@
 <script>
-    // Avatar upload preview
     document.getElementById('avatarUpload').addEventListener('change', function(e) {
         const file = e.target.files[0];
         if (file) {
@@ -11,3 +10,4 @@
         }
     });
 </script>
+
