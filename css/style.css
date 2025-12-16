@@ -1,10 +1,10 @@
-/* Персонализирана цветова схема - Акцентен цвят: #FFC107 (Жълто) */
+
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
 }
 
-/* Navbar customizations */
+
 .navbar-brand {
     font-size: 1.5rem;
 }
@@ -13,7 +13,7 @@ body {
     font-weight: 600;
 }
 
-/* Card hover effect */
+
 .card {
     transition: transform 0.2s;
 }
@@ -22,13 +22,12 @@ body {
     transform: translateY(-3px);
 }
 
-/* Product cards */
 .card-img-top {
     height: 250px;
     object-fit: cover;
 }
 
-/* Button customizations */
+
 .btn-warning {
     font-weight: 500;
 }
@@ -37,8 +36,6 @@ body {
     background-color: #ffb300;
     border-color: #ffb300;
 }
-
-/* Profile avatar styles */
 #avatarPreview {
     width: 140px;
     height: 140px;
@@ -46,18 +43,15 @@ body {
     border: 3px solid #ffc107;
 }
 
-/* Social links */
 a {
     transition: color 0.2s;
 }
 
-/* Form focus */
 .form-control:focus {
     border-color: #ffc107;
     box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .card-img-top {
         height: 200px;
@@ -76,4 +70,5 @@ a {
     .display-3 {
         font-size: 2rem;
     }
+
 }
