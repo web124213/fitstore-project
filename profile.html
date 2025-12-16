@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="bg">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FitStore - Профил</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">FitStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Начало</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Магазин</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">За нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Профил</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="login.html">Вход</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-secondary-subtle">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-xl-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="nav flex-xl-column justify-content-center justify-content-lg-start">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">
+                                        <i class="bi bi-person-circle"></i> 
+                                        Профил
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="bi bi-bag-check"></i> 
+                                        Поръчки
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="bi bi-gear"></i> 
+                                        Настройки
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-9 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-auto text-center">
+                                    <div style="position: relative; display: inline-block;">
+                                        <img src="https://placehold.co/140x140" alt="Аватар" class="img-fluid rounded-circle" id="avatarPreview" style="width: 140px; height: 140px; object-fit: cover; border: 3px solid #ffc107;">
+                                        <label for="avatarUpload" style="position: absolute; bottom: 0; right: 0; background: #ffc107; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; border: 3px solid white;">
+                                            <i class="bi bi-camera-fill"></i>
+                                        </label>
+                                        <input type="file" id="avatarUpload" accept="image/*" style="display: none;">
+                                    </div>
+                                </div>
+                                <div class="col text-center text-lg-start">
+                                    <div class="h3">Дайана Йорданова</div>
+                                    <span>@dayanayrdnv</span>
+                                    <div class="small text-muted">Последно активен преди 2 часа</div>
+                                    <button class="btn btn-warning mt-2" onclick="document.getElementById('avatarUpload').click()">Смени снимка</button>
+                                </div>
+                                <div class="col-lg-auto text-lg-end text-center">
+                                    <div class="badge text-bg-secondary">Потребител</div>
+                                    <div class="small text-muted">Регистриран 05 Дек 2025</div>
+                                </div>
+                            </div>
+
+                            <ul class="nav nav-tabs mt-4 mx-1">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">Настройки</a>
+                                </li>
+                            </ul>
+
+                            <div class="row px-2 mt-3">
+                                <div class="col px-3">
+                                    <label>Пълно име</label>
+                                    <input type="text" class="form-control" value="Дайана Йорданова">
+                                </div>
+                                <div class="col px-3">
+                                    <label>Потребителско име</label>
+                                    <input type="text" class="form-control" value="@dayanayrdnv">
+                                </div>
+                            </div>
+
+                            <div class="row px-2">
+                                <div class="col px-3">
+                                    <label>Имейл</label>
+                                    <input type="email" class="form-control" value="dayanayrdnv@gmail.com">
+                                </div>
+                            </div>
+
+                            <div class="row px-2">
+                                <div class="col px-3">
+                                    <label>Телефон</label>
+                                    <input type="tel" class="form-control" value="+359 87 533 6747">
+                                </div>
+                            </div>
+
+                            <div class="row px-2">
+                                <div class="col px-3">
+                                    <label>Адрес</label>
+                                    <input type="text" class="form-control" value="гр. Варна, ул. Брегалница 10">
+                                </div>
+                            </div>
+
+                            <div class="row px-2">
+                                <div class="col px-3">
+                                    <label>За мен / Bio</label>
+                                    <textarea class="form-control" rows="4">Обичам фитнеса и здравословния начин на живот. Тренирам всеки ден и се стремя да постигна най-добрата си форма.</textarea>
+                                </div>
+                            </div>
+
+                            <div class="row px-2">
+                                <div class="col px-3">
+                                    <div class="fw-bold mt-3">Социални мрежи</div>
+                                    <label>Facebook</label>
+                                    <input type="text" class="form-control" placeholder="facebook.com/username">
+                                    <label>Instagram</label>
+                                    <input type="text" class="form-control" placeholder="instagram.com/username">
+                                    <label>YouTube</label>
+                                    <input type="text" class="form-control" placeholder="youtube.com/@username">
+                                </div>
+                            </div>
+
+                            <div class="row px-2">
+                                <div class="col px-3">
+                                    <div class="fw-bold mt-3">Смяна на парола</div>
+                                    <label>Настояща парола</label>
+                                    <input type="password" class="form-control" value="12345678">
+                                    <label>Нова парола</label>
+                                    <input type="password" class="form-control" placeholder="Въведи нова парола">
+                                    <label>Потвърди парола</label>
+                                    <input type="password" class="form-control" placeholder="Потвърди новата парола">
+                                </div>
+                                <div class="col px-3">
+                                    <div class="fw-bold mt-3">Известия</div>
+                                    <div>Имейл нотификации</div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label>Нови продукти</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label>Бюлетин</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label>Персонални оферти</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" checked>
+                                        <label>Промоции</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row px-2 mt-4">
+                                <div class="col px-3 text-start text-lg-end">
+                                    <a href="#" class="btn btn-warning">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        Запази промените
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3">
+                    <div class="card">
+                        <div class="card-body d-grid">
+                            <a href="#" class="btn btn-secondary">
+                                <i class="bi bi-box-arrow-right"></i>
+                                Изход
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <div class="fw-bold">Помощ</div>
+                            <div>Нуждаеш се от помощ? Свържи се с нас!</div>
+                            <a href="about.html" class="btn btn-warning mt-3">Контакти</a>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <div class="fw-bold">Статистика</div>
+                            <div class="mt-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>Поръчки:</span>
+                                    <strong>12</strong>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Любими:</span>
+                                    <strong>8</strong>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Отзиви:</span>
+                                    <strong>5</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start mb-3">
+                    <h5 class="text-warning">FitStore</h5>
+                    <p>Твоят магазин за фитнес</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-warning">Връзки</h5>
+                    <div><a href="index.html" class="text-white text-decoration-none">Начало</a></div>
+                    <div><a href="shop.html" class="text-white text-decoration-none">Магазин</a></div>
+                    <div><a href="about.html" class="text-white text-decoration-none">За нас</a></div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="https://facebook.com" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="https://instagram.com" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="https://youtube.com" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <p class="mb-0">&copy; 2024 FitStore. Всички права запазени.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        // Avatar upload preview
+        document.getElementById('avatarUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('avatarPreview').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="bg">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FitStore - Магазин</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">FitStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Начало</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="shop.html">Магазин</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">За нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Профил</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="login.html">Вход</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-warning-subtle p-4">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Нашите продукти</h1>
+            <div>Открий всичко за твоя фитнес</div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row justify-content-center gap-2 gap-lg-4 mb-4">
+            <div class="col-12 col-lg-5">
+                <input type="text" class="form-control" placeholder="Търси продукт по име...">
+            </div>
+            <div class="col-12 col-lg-5">
+                <select class="form-select">
+                    <option value="">Всички категории</option>
+                    <option value="protein">Протеини</option>
+                    <option value="creatine">Креатин</option>
+                    <option value="vitamins">Витамини</option>
+                    <option value="equipment">Оборудване</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4 gx-4 gy-5 pb-4">
+            <div class="col">
+                <div class="card border-warning position-relative">
+                    <img src="wheyProtein.jpg" class="card-img-top" alt="Протеин">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Whey Protein Gold</div>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted">119.99 лв</span> 
+                            <span class="text-danger fw-bold">89.99 лв</span>
+                        </div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                    <span class="badge bg-danger position-absolute top-0 start-0 rounded-2">Промоция</span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="creatine.jpg" class="card-img-top" alt="Креатин">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Creatine Monohydrate</div>
+                        <div class="mb-3">39.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="dymbeli.jpg" class="card-img-top" alt="Дъмбели">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Комплект дъмбели</div>
+                        <div class="mb-3">129.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning position-relative">
+                    <img src="postelkaYoga.jpg" class="card-img-top" alt="Постелка">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Постелка за йога</div>
+                        <div class="mb-3">59.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                    <span class="badge bg-primary position-absolute top-0 start-0 rounded-2">Ново</span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="c4.jpg" class="card-img-top" alt="Pre-Workout">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">C4 Pre-Workout</div>
+                        <div class="mb-3">69.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="bcaa.jpg" class="card-img-top" alt="BCAA">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">BCAA 2:1:1</div>
+                        <div class="mb-3">49.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="gumenilenti.jpg" class="card-img-top" alt="Ленти">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Набор гумени ленти</div>
+                        <div class="mb-3">34.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="shaker.jpg" class="card-img-top" alt="Шейкър">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Шейкър Premium</div>
+                        <div class="mb-3">19.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="multivits.jpg" class="card-img-top" alt="Витамини">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Daily Multivitamin</div>
+                        <div class="mb-3">79.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning position-relative">
+                    <img src="fitili.jpg" class="card-img-top" alt="Фитили">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Фитили за тренировка</div>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted">29.99 лв</span> 
+                            <span class="text-danger fw-bold">19.99 лв</span>
+                        </div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                    <span class="badge bg-danger position-absolute top-0 start-0 rounded-2">Промоция</span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning position-relative">
+                    <img src="chanta.jpg" class="card-img-top" alt="Чанта">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Спортна чанта</div>
+                        <div class="mb-3">89.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                    <span class="badge bg-primary position-absolute top-0 start-0 rounded-2">Ново</span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning">
+                    <img src="barcheta.jpg" class="card-img-top" alt="Барчета">
+                    <div class="card-body text-center pb-4">
+                        <div class="h6 fs-5">Протеинови барчета</div>
+                        <div class="mb-3">44.99 лв</div>
+                        <a href="#" class="btn btn-warning">Купи</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white text-center mt-5 p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start mb-3">
+                    <h5 class="text-warning">FitStore</h5>
+                    <p>Твоят магазин за фитнес</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-warning">Връзки</h5>
+                    <div><a href="index.html" class="text-white text-decoration-none">Начало</a></div>
+                    <div><a href="shop.html" class="text-white text-decoration-none">Магазин</a></div>
+                    <div><a href="about.html" class="text-white text-decoration-none">За нас</a></div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="https://facebook.com" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="https://instagram.com" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="https://youtube.com" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <p class="mb-0">&copy; 2024 FitStore. Всички права запазени.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
